@@ -36,7 +36,7 @@ export const Encryption: React.FC = () => {
           </Button>
         </Box>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={12} md={6}>
         <Typography variant="h4" sx={{ textAlign: "center" }}>
           Plain Text
         </Typography>
@@ -53,7 +53,7 @@ export const Encryption: React.FC = () => {
           classes={{ root: "custom-text-field" }}
         />
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={12} md={6}>
         <Typography variant="h4" sx={{ textAlign: "center" }}>
           Cipher Text
         </Typography>
